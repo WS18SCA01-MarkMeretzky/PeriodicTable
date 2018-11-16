@@ -104,11 +104,11 @@ class ViewController: UIViewController {
         Element(abbreviation: "Ir", subcategory: .transitionMetal),     // 77 Iridium
         Element(abbreviation: "Pt", subcategory: .transitionMetal),     // 78 Platinum
         Element(abbreviation: "Au", subcategory: .transitionMetal),     // 79 Gold
-        Element(abbreviation: "Hg", subcategory: .transitionMetal),     // 80 Mercury
-        Element(abbreviation: "Tl", subcategory: .transitionMetal),     // 81 Thallium
-        Element(abbreviation: "Pb", subcategory: .transitionMetal),     // 82 Lead
-        Element(abbreviation: "Bi", subcategory: .transitionMetal),     // 83 Bismuth
-        Element(abbreviation: "Po", subcategory: .transitionMetal),     // 84 Polonium
+        Element(abbreviation: "Hg", subcategory: .posttransitionMetal), // 80 Mercury
+        Element(abbreviation: "Tl", subcategory: .posttransitionMetal), // 81 Thallium
+        Element(abbreviation: "Pb", subcategory: .posttransitionMetal), // 82 Lead
+        Element(abbreviation: "Bi", subcategory: .posttransitionMetal), // 83 Bismuth
+        Element(abbreviation: "Po", subcategory: .posttransitionMetal), // 84 Polonium
         Element(abbreviation: "At", subcategory: .metalloid),           // 85 Astetine
         Element(abbreviation: "Rn", subcategory: .nobleGas),            // 86 Radon
         
