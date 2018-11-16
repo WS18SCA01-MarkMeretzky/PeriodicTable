@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     let elements: [Element] = [
         Element(abbreviation: "",   subcategory: .reactiveNonmetal),    //  unused
         
-        //Period 1 conatins 2 elements.
+        //Period 1 contains 2 elements.
         Element(abbreviation: "H",  subcategory: .reactiveNonmetal),    //  1 Hydrogen
         Element(abbreviation: "He", subcategory: .nobleGas),            //  2 Helium
         
