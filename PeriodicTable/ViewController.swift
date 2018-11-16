@@ -12,12 +12,13 @@ import UIKit;
 class ViewController: UIViewController {
     
     let elements: [Element] = [
-        //Period 1
         Element(abbreviation: "",   subcategory: .reactiveNonmetal),    //  unused
+        
+        //Period 1 conatins 2 elements.
         Element(abbreviation: "H",  subcategory: .reactiveNonmetal),    //  1 Hydrogen
         Element(abbreviation: "He", subcategory: .nobleGas),            //  2 Helium
         
-        //Period 2
+        //Period 2 contains 8 elements.
         Element(abbreviation: "Li", subcategory: .alkaliMetal),         //  3 Lithium
         Element(abbreviation: "Be", subcategory: .alkalineEarthMetal),  //  4 Beryllium
         Element(abbreviation: "B",  subcategory: .metalloid),           //  5 Boron
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         Element(abbreviation: "F",  subcategory: .reactiveNonmetal),    //  9 Flourine
         Element(abbreviation: "Ne", subcategory: .nobleGas),            // 10 Neon
         
-        //Period 3
+        //Period 3 contains 8 elements.
         Element(abbreviation: "Na", subcategory: .alkaliMetal),         // 11 Sodium
         Element(abbreviation: "Mg", subcategory: .alkalineEarthMetal),  // 12 Magnesium
         Element(abbreviation: "Al", subcategory: .posttransitionMetal), // 13 Aluminum
@@ -37,7 +38,7 @@ class ViewController: UIViewController {
         Element(abbreviation: "Cl", subcategory: .reactiveNonmetal),    // 17 Chlorine
         Element(abbreviation: "Ar", subcategory: .nobleGas),            // 18 Argon
         
-        //Period 4
+        //Period 4 contains 18 elements.
         Element(abbreviation: "K",  subcategory: .alkaliMetal),         // 19 Potassium
         Element(abbreviation: "Ca", subcategory: .alkalineEarthMetal),  // 20 Calcium
         Element(abbreviation: "Sc", subcategory: .transitionMetal),     // 21 Scandium
@@ -57,7 +58,7 @@ class ViewController: UIViewController {
         Element(abbreviation: "Br", subcategory: .reactiveNonmetal),    // 35 Bromine
         Element(abbreviation: "Kr", subcategory: .nobleGas),            // 36 Krypton
         
-        //Period 5
+        //Period 5 contains 18 elements.
         Element(abbreviation: "Rb", subcategory: .alkaliMetal),         // 37 Rubidium
         Element(abbreviation: "Sr", subcategory: .alkalineEarthMetal),  // 38 Strontium
         Element(abbreviation: "Y",  subcategory: .transitionMetal),     // 39 Yttrium
@@ -77,7 +78,7 @@ class ViewController: UIViewController {
         Element(abbreviation: "I",  subcategory: .reactiveNonmetal),    // 53 Iodine
         Element(abbreviation: "Xe", subcategory: .nobleGas),            // 54 Xenon
         
-        //Period 6
+        //Period 6 contains 32 elements.
         Element(abbreviation: "Cs", subcategory: .alkaliMetal),         // 55 Caesium
         Element(abbreviation: "Ba", subcategory: .alkalineEarthMetal),  // 56 Barium
         Element(abbreviation: "La", subcategory: .lanthanide),          // 57 Lanthanum
@@ -111,7 +112,7 @@ class ViewController: UIViewController {
         Element(abbreviation: "At", subcategory: .metalloid),           // 85 Astetine
         Element(abbreviation: "Rn", subcategory: .nobleGas),            // 86 Radon
         
-        //Period 7
+        //Period 7 contains 32 elements.
         Element(abbreviation: "Fr", subcategory: .alkaliMetal),         // 87 Francium
         Element(abbreviation: "Ra", subcategory: .alkalineEarthMetal),  // 88 Radium
         Element(abbreviation: "Ac", subcategory: .actinide),            // 89 Actinium
