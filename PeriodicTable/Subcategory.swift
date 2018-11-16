@@ -27,7 +27,7 @@ enum Subcategory: Int {
         UIColor(red: 194/255.0, green: 255/255.0, blue: 254/255.0, alpha: 1), //.nobleGas
         UIColor(red: 240/255.0, green: 254/255.0, blue: 149/255.0, alpha: 1), //.reactiveNonmetal
         UIColor(red: 204/255.0, green: 203/255.0, blue: 155/255.0, alpha: 1), //.metalloid
-        UIColor(red: 204/255.0, green: 204/255.0, blue: 204/255.0, alpha: 1), //posttransitionMetal
+        UIColor(red: 204/255.0, green: 204/255.0, blue: 204/255.0, alpha: 1), //.posttransitionMetal
         UIColor(red: 254/255.0, green: 192/255.0, blue: 193/255.0, alpha: 1), //.transitionMetal
         UIColor(red: 253/255.0, green: 155/255.0, blue: 203/255.0, alpha: 1), //.actinide
         UIColor(red: 254/255.0, green: 193/255.0, blue: 254/255.0, alpha: 1), //.lanthide
